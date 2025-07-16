@@ -1,12 +1,12 @@
 {
-  "name": "com.lg.ir",
+  "name": "nl.jasperveraart.brilliant",
   "version": "3.0.0",
-  "description": "This app enables Homey to send IR remote signals to your LG TV. For now it is not possible to listen to signals of the remote.",
+  "description": "This app enables Homey to send IR remote signals to your TV. For now it is not possible to listen to signals of the remote.",
   "main": ".eslintrc.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Athom B.V.",
+  "author": "Jasper Veraart",
   "dependencies": {
     "homey-rfdriver": "^3.0.3"
   },
