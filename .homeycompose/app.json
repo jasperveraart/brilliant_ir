@@ -1,8 +1,8 @@
 {
   "id": "nl.jasperveraart.brilliant",
   "name": {
-    "en": "Brilliant TV",
-    "nl": "Brilliant TV"
+    "en": "Ceiling Fan",
+    "nl": "Plafondventilator"
   },
   "version": "3.0.3",
   "sdk": 3,
@@ -13,8 +13,8 @@
     "email": "support@athom.com"
   },
   "description": {
-    "en": "Control your TV using Infrared.",
-    "nl": "Bestuur je TV met Infrarood."
+    "en": "Control your ceiling fan using Infrared.",
+    "nl": "Bestuur je plafondventilator met Infrarood."
   },
   "category": "video",
   "images": {

@@ -1,3 +1,3 @@
-Verbeter je Homey ervaring door je TV met deze app te verbinden.
+Verbeter je Homey ervaring door je plafondventilator met deze app te verbinden.
 
-Homey kan je TV besturen via infrarood en je TV aan- en uitzetten, het kanaal wisselen en het volume instellen.
+Homey kan je plafondventilator bedienen via infrarood.

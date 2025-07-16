@@ -1,0 +1,34 @@
+{
+        "name": {
+                "en": "Ceiling Fan"
+        },
+        "class": "other",
+	"images": {
+		"small": "{{driverPath}}/assets/images/small.jpg",
+		"large": "{{driverPath}}/assets/images/large.jpg"
+	},
+        "capabilities": [
+                "onoff"
+        ],
+	"pair": [
+		{
+			"id": "rf_ir_remote_learn",
+			"navigation": {
+				"next": "rf_ir_remote_add"
+			},
+			"options": {
+                                "title": {
+                                        "en": "Connect your Ceiling Fan",
+                                        "nl": "Koppel je plafondventilator"
+                                },
+                                "instruction": {
+                                        "en": "Press next to connect your Ceiling Fan.",
+                                        "nl": "Druk op volgende om je plafondventilator te koppelen."
+                                }
+			}
+		},
+		{
+			"id": "rf_ir_remote_add"
+		}
+	]
+}
