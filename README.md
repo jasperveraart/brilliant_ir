@@ -1,6 +1,6 @@
-# Brilliant TV
+# Ceiling Fan
 
-This repository serves as inspiration for your own Homey app, to help you understand Homey Apps SDK concepts in a real-life context.
+This repository serves as inspiration for your own Homey app, demonstrating how to control a ceiling fan using Infrared with the Homey Apps SDK.
 
 Read the [Homey Apps SDK Documentation](https://apps.developer.homey.app) for more information about developing apps for Homey.
 
@@ -8,5 +8,5 @@ Read the [Homey Apps SDK Documentation](https://apps.developer.homey.app) for mo
 
 ## What does this app do?
 
-This app uses `homey-rfdriver` to enable Homey to control televisions using Infrared.
+This app uses `homey-rfdriver` to enable Homey to control a ceiling fan using Infrared.
 Read more about Infrared on Homey at https://apps.developer.homey.app/wireless/infrared.
