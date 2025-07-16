@@ -1,8 +1,8 @@
 'use strict';
 
-const RFDeviceLG = require('../../lib/RFDeviceLG');
+const RFDeviceBrilliant = require('../../lib/RFDeviceBrilliant');
 
-module.exports = class extends RFDeviceLG {
+module.exports = class extends RFDeviceBrilliant {
 
   static CAPABILITIES = {
     onoff: {

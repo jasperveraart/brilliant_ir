@@ -1,7 +1,7 @@
 {
-	"name": {
-		"en": "LG TV"
-	},
+        "name": {
+                "en": "Brilliant TV"
+        },
 	"class": "tv",
 	"images": {
 		"small": "{{driverPath}}/assets/images/small.jpg",

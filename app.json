@@ -1,20 +1,20 @@
 {
-  "id": "com.lg.ir",
+  "id": "nl.jasperveraart.brilliant",
   "name": {
-    "en": "LG TV",
-    "nl": "LG TV"
+    "en": "Brilliant TV",
+    "nl": "Brilliant TV"
   },
   "version": "3.0.3",
   "sdk": 3,
   "compatibility": ">=5.0.0",
   "brandColor": "#AB234A",
   "author": {
-    "name": "Athom B.V.",
+    "name": "Jasper Veraart",
     "email": "support@athom.com"
   },
   "description": {
-    "en": "Control your LG TV using Infrared.",
-    "nl": "Bestuur je LG TV met Infrarood."
+    "en": "Control your TV using Infrared.",
+    "nl": "Bestuur je TV met Infrarood."
   },
   "category": "video",
   "images": {
@@ -27,12 +27,12 @@
   "drivers": [
     {
       "name": {
-        "en": "LG TV"
+        "en": "Brilliant TV"
       },
       "class": "tv",
       "images": {
-        "small": "/drivers/lg_tv/assets/images/small.jpg",
-        "large": "/drivers/lg_tv/assets/images/large.jpg"
+        "small": "/drivers/brilliant_tv/assets/images/small.jpg",
+        "large": "/drivers/brilliant_tv/assets/images/large.jpg"
       },
       "capabilities": [
         "onoff",
@@ -63,12 +63,12 @@
           "id": "rf_ir_remote_add"
         }
       ],
-      "id": "lg_tv"
+      "id": "brilliant_tv"
     }
   ],
   "signals": {
     "ir": {
-      "lg": {
+      "brilliant": {
         "type": "prontohex",
         "repetitions": 10,
         "cmds": {
