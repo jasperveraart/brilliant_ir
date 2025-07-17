@@ -1,14 +1,15 @@
 {
   "name": "nl.jasperveraart.brilliant",
-  "version": "3.0.0",
-  "description": "This app enables Homey to send IR remote signals to your TV. For now it is not possible to listen to signals of the remote.",
-  "main": ".eslintrc.js",
+  "version": "3.1.0",
+  "description": "Control IR and Zigbee devices.",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Jasper Veraart",
   "dependencies": {
-    "homey-rfdriver": "^3.0.3"
+    "homey-rfdriver": "^3.0.3",
+    "homey-zigbeedriver": "^2.1.5"
   },
   "devDependencies": {
     "eslint": "^7.0.0",

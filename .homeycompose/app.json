@@ -4,7 +4,7 @@
     "en": "Veraart Home",
     "nl": "Veraart Home"
   },
-  "version": "3.0.3",
+  "version": "3.1.0",
   "sdk": 3,
   "compatibility": ">=5.0.0",
   "brandColor": "#577d38",
@@ -13,8 +13,8 @@
     "email": "support@athom.com"
   },
   "description": {
-    "en": "Control your ceiling fan using Infrared.",
-    "nl": "Bestuur je plafondventilator met Infrarood."
+    "en": "Control your ceiling fan using Infrared and your Philips Zigbee devices.",
+    "nl": "Bestuur je plafondventilator met Infrarood en je Philips Zigbee apparaten."
   },
   "category": "video",
   "images": {
@@ -22,6 +22,7 @@
     "large": "./assets/images/large.jpg"
   },
   "permissions": [
-    "homey:wireless:ir"
+    "homey:wireless:ir",
+    "homey:wireless:zigbee"
   ]
 }

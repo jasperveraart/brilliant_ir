@@ -1,0 +1,43 @@
+{
+  "name": {
+    "en": "Ceiling Fan",
+    "nl": "Plafondventilator"
+  },
+  "class": "other",
+  "capabilities": [
+    "onoff",
+    "button.light_brighter",
+    "button.light_darker",
+    "onoff.fan",
+    "button.fan_increase",
+    "button.fan_decrease"
+  ],
+  "capabilitiesOptions": {
+    "onoff": {
+      "title": {
+        "en": "Light",
+        "nl": "Licht"
+      }
+    },
+    "onoff.fan": {
+      "title": {
+        "en": "Fan",
+        "nl": "Ventilator"
+      }
+    }
+  },
+  "pair": [
+    {
+      "id": "rf_ir_remote_learn",
+      "navigation": {
+        "next": "rf_ir_remote_add"
+      }
+    },
+    {
+      "id": "rf_ir_remote_add"
+    }
+  ],
+  "infrared": {
+    "satelliteMode": true
+  }
+}

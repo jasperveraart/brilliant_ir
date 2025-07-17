@@ -1,0 +1,23 @@
+{
+  "name": {
+    "en": "Philips MasterConnect GU10 V3",
+    "nl": "Philips MasterConnect GU10 V3"
+  },
+  "class": "light",
+  "manufacturerId": "Philips",
+  "zigbeeProductId": "LEDspot_GU10_V3",
+  "capabilities": [
+    "onoff",
+    "dim"
+  ],
+  "endpoints": {
+    "onoff": 64,
+    "dim": 64
+  },
+  "pair": [
+    {
+      "id": "standard",
+      "template": "identifying"
+    }
+  ]
+}
