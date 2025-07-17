@@ -1,34 +1,30 @@
 {
-        "name": {
-                "en": "Ceiling Fan"
-        },
-        "class": "other",
-	"images": {
-		"small": "{{driverPath}}/assets/images/small.jpg",
-		"large": "{{driverPath}}/assets/images/large.jpg"
+	"name": {
+		"en": "Ceiling Fan",
+		"nl": "Plafondventilator"
 	},
-        "capabilities": [
-                "onoff"
-        ],
+	"class": "other",
+	"capabilities": [
+		"onoff",
+		"button.light_brighter",
+		"button.light_darker",
+		"onoff.fan",
+		"button.fan_increase",
+		"button.fan_decrease"
+	],
+	"capabilitiesOptions": {
+		"onoff": { "title": { "en": "Light", "nl": "Licht" } },
+		"onoff.fan": { "title": { "en": "Fan", "nl": "Ventilator" } },
+		"button.light_brighter": { "title": { "en": "Brighter", "nl": "Helderder" } },
+		"button.light_darker": { "title": { "en": "Darker", "nl": "Donkerder" } },
+		"button.fan_increase": { "title": { "en": "Fan Speed Up", "nl": "Ventilator Sneller" } },
+		"button.fan_decrease": { "title": { "en": "Fan Speed Down", "nl": "Ventilator Langzamer" } }
+	},
 	"pair": [
-		{
-			"id": "rf_ir_remote_learn",
-			"navigation": {
-				"next": "rf_ir_remote_add"
-			},
-			"options": {
-                                "title": {
-                                        "en": "Connect your Ceiling Fan",
-                                        "nl": "Koppel je plafondventilator"
-                                },
-                                "instruction": {
-                                        "en": "Press next to connect your Ceiling Fan.",
-                                        "nl": "Druk op volgende om je plafondventilator te koppelen."
-                                }
-			}
-		},
-		{
-			"id": "rf_ir_remote_add"
-		}
-	]
+		{ "id": "rf_ir_remote_learn", "navigation": { "next": "rf_ir_remote_add" } },
+		{ "id": "rf_ir_remote_add" }
+	],
+	"infrared": {
+		"satelliteMode": true
+	}
 }

@@ -1,13 +1,13 @@
 {
   "id": "nl.jasperveraart.brilliant",
   "name": {
-    "en": "Ceiling Fan",
-    "nl": "Plafondventilator"
+    "en": "Veraart Home",
+    "nl": "Veraart Home"
   },
   "version": "3.0.3",
   "sdk": 3,
   "compatibility": ">=5.0.0",
-  "brandColor": "#AB234A",
+  "brandColor": "#577d38",
   "author": {
     "name": "Jasper Veraart",
     "email": "support@athom.com"
